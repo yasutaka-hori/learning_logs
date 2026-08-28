@@ -6,3 +6,6 @@ pip install -r requirements.txt
 
 python manage.py collectstatic --no-input
 python manage.py migrate
+
+# ↓ この1行を末尾に追加
+python manage.py createsuperuser --no-input || true
